@@ -35,7 +35,7 @@ public class Calculator {
                 case "count": return args.count - 1
                 case "avg": return avg(mutableArgsDup)
                 case "fact": return fact(args)
-                default: return 0;
+                default: return 0
                 }
             }
         }
@@ -52,7 +52,7 @@ public class Calculator {
             if(num != nil){
                 ret += num!
             }else{
-                return 0;
+                return 0
             }
         }
         return ret/args.count
@@ -64,9 +64,9 @@ public class Calculator {
             for i in ( 1..<num!){
                 num! *= i
             }
-            return num!;
+            return num!
         }else{
-            return num!;
+            return num!
         }
     }
 }
